@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 3.5vw;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}
+a:active, a:hover {
+	outline: 0
+}
+ul, li {
+	list-style: none;
+}
+/*话术列表*/
+
+.huashu {
+	padding: 2% 1% 0;
+	width: 100%;
+	margin: 0 auto;
+}
+.huashu li {
+	margin: 0 auto;
+	width: 90%;
+	color: #ffffff;
+	font-size: 3.5vw;
+}
+.huashu .select_list {
+	width: 100%;
+	background: #3395f8;
+	border-radius: 100vw;
+	line-height: 5vw;
+	padding: 2vw 4vw;
+	margin-top: 4vw
+}
+.select_list img {
+	width: 5%;
+	float: right;
+	margin: 0.5vw 0 0 0;
+}
+.huashu .default_list {
+	width: 100%;
+	background: #f4f4f4;
+	border-radius: 100vw;
+	line-height: 5vw;
+	padding: 2vw 4vw;
+	color: #000000;
+	margin-top: 4vw
+}
